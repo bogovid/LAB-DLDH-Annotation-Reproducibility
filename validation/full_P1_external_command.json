@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "python3",
+    "ORIGINAL/p1/run_p1.py",
+    "--config",
+    "<external-runtime-config>",
+    "--out",
+    "<external-native-P1-output>"
+  ],
+  "config": {
+    "project_root": "<external-source-project>",
+    "global_screen": "<external-historical-screen>",
+    "prior_ldh": "<external-prior-evidence>",
+    "modules": {
+      "D_LDH": "1.1.1.28",
+      "L_LDH": "1.1.1.27"
+    },
+    "historical_filter": {
+      "identity_min": 30,
+      "alignment_length_min": 80
+    },
+    "domain_independent_evalue_max": 1e-05,
+    "interpretation": "Evidence sources are imperfect; no activity or orthology assigned."
+  },
+  "source": "fresh execution on original collection; logical path normalization only",
+  "python": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]"
+}

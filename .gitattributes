@@ -1,0 +1,2 @@
+# Preserve archival byte identity; never silently normalize original data line endings.
+* -text

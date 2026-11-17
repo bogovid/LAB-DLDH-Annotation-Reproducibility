@@ -1,0 +1,93 @@
+{
+  "filter": {
+    "records": 7373,
+    "comparison": "byte-identical observable reconstruction, not recovered original generator"
+  },
+  "p1": {
+    "genomes": 507,
+    "frozen_CDS_census_sum": 1558611,
+    "historical_screen_loci": 1483,
+    "target_EC_loci": 969,
+    "discordant_loci": 514,
+    "generic_EC_discordant": 472,
+    "generic_loci": 468,
+    "generic_genomes": 467,
+    "generic_unique_sequences": 75,
+    "largest_sequence_multiplicities": [
+      173,
+      68,
+      57
+    ],
+    "archived_bilateral85": 7,
+    "oracle": "byte-identical projection of archived original P1 scientific table; full 14-table native P1 needs external source collection"
+  },
+  "panel": [
+    {
+      "gap": "11/1",
+      "alternative_higher_unique": 75,
+      "represented_loci": 468,
+      "baseline_archived_score_mismatches": 0
+    },
+    {
+      "gap": "9/2",
+      "alternative_higher_unique": 75,
+      "represented_loci": 468,
+      "baseline_archived_score_mismatches": null
+    }
+  ],
+  "seeds": {
+    "seeds": 7,
+    "reciprocal": 6,
+    "bilateral85_both_directions": 5,
+    "original_seed_source_sha256": "83e303af37218aa61d636ba1aeebe339dde3ddd34f16c00996616591bfdaeb72",
+    "executed_seed_source_sha256": "83e303af37218aa61d636ba1aeebe339dde3ddd34f16c00996616591bfdaeb72",
+    "byte_identical_scientific_table": true,
+    "relocation": "none"
+  },
+  "domains": {
+    "domains": 374,
+    "data_tokens_identical": true,
+    "scope": "targeted frozen model panel, not full Pfam discovery"
+  },
+  "consistency": {
+    "neighborhood": 459,
+    "neighborhood_denominator": 468,
+    "dppA_opposite_strand": 459,
+    "context_verification_level": "recalculation from frozen source-derived coordinate table; original GFF parsing not rerun",
+    "recorded_full_searches": [
+      {
+        "gap": "11_1",
+        "archived_v005_passing": 1486,
+        "archived_v005_bilateral85": 43
+      },
+      {
+        "gap": "9_2",
+        "archived_v005_passing": 1488,
+        "archived_v005_bilateral85": 17
+      }
+    ],
+    "full_search_verification_level": "archived output recomputation; no 507-proteome search rerun from this compact package"
+  },
+  "status": "PASS",
+  "python_version": "3.13.13 | packaged by conda-forge | (main, Apr  8 2026, 02:00:33) [GCC 14.3.0]",
+  "tools": {
+    "blastp": {
+      "version_lines": [
+        "blastp: 2.16.0+",
+        " Package: blast 2.16.0, build May  4 2025 03:42:51"
+      ],
+      "binary_sha256": "3d91f9827370365cf57226e389dea4c87adc3a3599ae9825fcfac915645d80a8"
+    },
+    "hmmsearch": {
+      "version_lines": [
+        "# hmmsearch :: search profile(s) against a sequence database",
+        "# HMMER 3.4 (Aug 2023); http://hmmer.org/",
+        "# Copyright (C) 2023 Howard Hughes Medical Institute.",
+        "# Freely distributed under the BSD open source license."
+      ],
+      "binary_sha256": "bfd9c961750f95d30756fa4261cf51508ce4df47c754b0d0f99fb74be8abcb0c"
+    }
+  },
+  "input_files": 33,
+  "input_hashes_unchanged": true
+}

@@ -1,0 +1,8 @@
+{
+  "protected_source_files": 1041,
+  "changed_source_files": 0,
+  "previous_v005_and_PhaseG_manifest_check": "PASS",
+  "existing_research_files_modified_by_this_task": false,
+  "source_details": "Private absolute source paths retained only outside the public repository",
+  "public_status": "PASS"
+}

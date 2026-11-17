@@ -1,68 +1,73 @@
-path	classification	rights_disposition	bytes
-.gitattributes	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	96
-.gitignore	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	31
-.zenodo.json	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	1561
-CITATION.cff	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	826
-LICENSE.md	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	804
-LICENSES/MIT.proposed.txt	LICENSES	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	1301
-NEW/reproduce.py	NEW	project-authored code: MIT PROPOSED, pending author approval	14223
-ORIGINAL/p1/run_p1.py	ORIGINAL	project-authored code: MIT PROPOSED, pending author approval	21516
-ORIGINAL/p2/common.py	ORIGINAL	project-authored code: MIT PROPOSED, pending author approval	4286
-ORIGINAL/p2/seed_RBH.py	ORIGINAL	project-authored code: MIT PROPOSED, pending author approval	5015
-README.md	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	6648
-RECONSTRUCTED/panel_policy.json	RECONSTRUCTED	project-authored code: MIT PROPOSED, pending author approval	1104
-RECONSTRUCTED/rebuild_historical_filter.py	RECONSTRUCTED	project-authored code: MIT PROPOSED, pending author approval	3128
-data/archived/P2_panel.raw.tsv	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained	763005
-data/archived/P2_query_members.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	83470
-data/archived/filtered_hits.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	552854
-data/archived/global_blastp.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	1112840
-data/archived/reference_proteins.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	1369
-data/archived/v005_full_11_1.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	246532
-data/archived/v005_full_9_2.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	246234
-data/context/V5_S16_coverage_search_comparison.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	135089
-data/context/V5_S17_membership_exceptions_annotated.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	1330
-data/context/neighbors.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	722252
-data/expected/p1_locus_evidence.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	325808
-data/expected/seed_RBH.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	2497
-data/expected/targeted_Pfam.original.domtbl	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	68442
-data/hmmer/Pfam_targeted_panel.hmm	data	Pfam CC0; verified official resource terms	925286
-data/hmmer/queries.faa	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained	43937
-data/p1/annotations.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	109539
-data/p1/genome_census.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	33864
-data/p1/screen_loci.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	527924
-data/project/analysis/prokka_annotations/LABG_0003/LABG_0003.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	1090112
-data/project/analysis/prokka_annotations/LABG_0015/LABG_0015.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	1531545
-data/project/analysis/prokka_annotations/LABG_0021/LABG_0021.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	1048112
-data/project/analysis/prokka_annotations/LABG_0021/LABG_0021.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	193064
-data/project/analysis/prokka_annotations/LABG_0485/LABG_0485.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	982614
-data/project/analysis/prokka_annotations/LABG_0491/LABG_0491.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	720375
-data/project/analysis/prokka_annotations/LABG_0494/LABG_0494.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	1001430
-data/project/analysis/prokka_annotations/LABG_0495/LABG_0495.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	988268
-data/project/analysis/prokka_annotations/LABG_0506/LABG_0506.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	747189
-data/project/metadata/processed/genome_metadata.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	46487
-data/references/panel.faa	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained	3808
-data/references/provenance.tsv	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained	4654
-data/seeds/candidate_loci.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	2453
-data/seeds/policy.json	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	842
-data/seeds/priority_7_candidates.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant	201
-docs/DATA_DICTIONARY.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	3044
-docs/LICENSING_AUDIT.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	3148
-docs/PUBLICATION_STEPS.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	3387
-docs/RELEASE_NOTES_v1.0.0.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	1135
-docs/REPRODUCIBILITY_REPORT.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	4720
-docs/THIRD_PARTY_NOTICES.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	2869
-provenance/HMMER_query_origins.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	33518
-provenance/curation_decisions.json	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	628
-provenance/file_origins.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	7122
-provenance/original_annotation_inputs.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	142442
-provenance/release_file_scope.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	7343
-tests/test_reproducibility.py	tests	project-authored code: MIT PROPOSED, pending author approval	4197
-validation/commands.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	2406
-validation/full_P1_external_command.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	812
-validation/full_P1_external_input_hashes.tsv	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	217985
-validation/full_P1_external_verification.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	4217
-validation/github_access_status.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	309
-validation/input_sha256.tsv	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	3580
-validation/native_seed_child_commands.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	10012
-validation/output_sha256.tsv	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	843
-validation/results.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms	2987
+path	classification	rights_disposition
+.gitattributes	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+.gitignore	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+.zenodo.json	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+CITATION.cff	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+LICENSE.md	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+LICENSES/MIT.proposed.txt	LICENSES	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+NEW/reproduce.py	NEW	project-authored code: MIT PROPOSED, pending author approval
+ORIGINAL/p1/run_p1.py	ORIGINAL	project-authored code: MIT PROPOSED, pending author approval
+ORIGINAL/p2/common.py	ORIGINAL	project-authored code: MIT PROPOSED, pending author approval
+ORIGINAL/p2/seed_RBH.py	ORIGINAL	project-authored code: MIT PROPOSED, pending author approval
+README.md	metadata	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+RECONSTRUCTED/panel_policy.json	RECONSTRUCTED	project-authored code: MIT PROPOSED, pending author approval
+RECONSTRUCTED/rebuild_historical_filter.py	RECONSTRUCTED	project-authored code: MIT PROPOSED, pending author approval
+data/archived/P2_panel.raw.tsv	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained
+data/archived/P2_query_members.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/archived/filtered_hits.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/archived/global_blastp.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/archived/reference_proteins.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/archived/v005_full_11_1.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/archived/v005_full_9_2.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/context/V5_S16_coverage_search_comparison.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/context/V5_S17_membership_exceptions_annotated.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/context/neighbors.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/expected/p1_locus_evidence.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/expected/seed_RBH.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/expected/targeted_Pfam.original.domtbl	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/hmmer/Pfam_targeted_panel.hmm	data	Pfam CC0; verified official resource terms
+data/hmmer/queries.faa	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained
+data/p1/annotations.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/p1/genome_census.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/p1/screen_loci.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0003/LABG_0003.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0015/LABG_0015.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0021/LABG_0021.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0021/LABG_0021.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0485/LABG_0485.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0491/LABG_0491.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0494/LABG_0494.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0495/LABG_0495.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/analysis/prokka_annotations/LABG_0506/LABG_0506.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/project/metadata/processed/genome_metadata.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/references/panel.faa	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained
+data/references/provenance.tsv	data	mixed UniProt reference CC-BY-4.0 / local-derived data; per-record attribution retained
+data/seeds/candidate_loci.faa	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/seeds/policy.json	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+data/seeds/priority_7_candidates.tsv	data	local project/NCBI-derived evidence; author redistribution/terms approval pending; no blanket MIT grant
+docs/DATA_DICTIONARY.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+docs/LICENSING_AUDIT.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+docs/PUBLICATION_READINESS_SR.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+docs/PUBLICATION_STEPS.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+docs/RELEASE_NOTES_v1.0.0.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+docs/REPRODUCIBILITY_REPORT.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+docs/THIRD_PARTY_NOTICES.md	docs	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+provenance/HMMER_query_origins.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+provenance/curation_decisions.json	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+provenance/file_origins.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+provenance/original_GFF_inputs.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+provenance/original_annotation_inputs.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+provenance/release_file_scope.tsv	provenance	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+tests/test_reproducibility.py	tests	project-authored code: MIT PROPOSED, pending author approval
+validation/commands.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/full_P1_external_command.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/full_P1_external_input_hashes.tsv	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/full_P1_external_verification.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/github_access_status.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/input_sha256.tsv	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/metadata_validation.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/native_seed_child_commands.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/output_sha256.tsv	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/privacy_and_scope_audit.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/results.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms
+validation/source_preservation.json	validation	author metadata/documentation/provenance; terms pending approval; third-party notices retain source terms

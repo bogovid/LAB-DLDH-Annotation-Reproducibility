@@ -1,0 +1,112 @@
+[
+  {
+    "label": "filter",
+    "argv": [
+      "python3",
+      "RECONSTRUCTED/rebuild_historical_filter.py",
+      "--raw",
+      "data/archived/global_blastp.tsv",
+      "--expected",
+      "data/archived/filtered_hits.tsv",
+      "--out",
+      "runs/curation_validation/filtered_hits.tsv",
+      "--report",
+      "runs/curation_validation/filter.json"
+    ],
+    "exit_code": 0,
+    "seconds": 0.11596144100076344
+  },
+  {
+    "label": "panel_11_1",
+    "argv": [
+      "/usr/bin/blastp",
+      "-task",
+      "blastp",
+      "-query",
+      "runs/curation_validation/generic_unique.faa",
+      "-subject",
+      "data/references/panel.faa",
+      "-matrix",
+      "BLOSUM62",
+      "-comp_based_stats",
+      "2",
+      "-evalue",
+      "1e-5",
+      "-seg",
+      "no",
+      "-num_threads",
+      "1",
+      "-max_target_seqs",
+      "10000",
+      "-gapopen",
+      "11",
+      "-gapextend",
+      "1",
+      "-outfmt",
+      "6 qseqid sseqid pident length qstart qend sstart send qlen slen evalue bitscore",
+      "-out",
+      "runs/curation_validation/panel_11_1.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.31604148100086604
+  },
+  {
+    "label": "panel_9_2",
+    "argv": [
+      "/usr/bin/blastp",
+      "-task",
+      "blastp",
+      "-query",
+      "runs/curation_validation/generic_unique.faa",
+      "-subject",
+      "data/references/panel.faa",
+      "-matrix",
+      "BLOSUM62",
+      "-comp_based_stats",
+      "2",
+      "-evalue",
+      "1e-5",
+      "-seg",
+      "no",
+      "-num_threads",
+      "1",
+      "-max_target_seqs",
+      "10000",
+      "-gapopen",
+      "9",
+      "-gapextend",
+      "2",
+      "-outfmt",
+      "6 qseqid sseqid pident length qstart qend sstart send qlen slen evalue bitscore",
+      "-out",
+      "runs/curation_validation/panel_9_2.tsv"
+    ],
+    "exit_code": 0,
+    "seconds": 0.2654937349998363
+  },
+  {
+    "label": "native_seed",
+    "argv": [
+      "python3",
+      "runs/curation_validation/native_seed/scripts/seed_RBH.py"
+    ],
+    "exit_code": 0,
+    "seconds": 2.123450449000302
+  },
+  {
+    "label": "hmmsearch",
+    "argv": [
+      "/usr/bin/hmmsearch",
+      "--cpu",
+      "1",
+      "--cut_ga",
+      "--noali",
+      "--domtblout",
+      "runs/curation_validation/domains.domtbl",
+      "data/hmmer/Pfam_targeted_panel.hmm",
+      "data/hmmer/queries.faa"
+    ],
+    "exit_code": 0,
+    "seconds": 0.36618429199916136
+  }
+]

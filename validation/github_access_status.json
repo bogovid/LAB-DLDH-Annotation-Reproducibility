@@ -1,0 +1,8 @@
+{
+  "intended_owner": "bogovid",
+  "configured_account_label": "bogovid",
+  "remote_authenticated_identity": "NOT VERIFIED",
+  "remote_repository_existence": "NOT VERIFIED",
+  "reason": "gh auth reported invalid authentication; API/repository checks could not connect",
+  "remote_mutations_performed": false
+}

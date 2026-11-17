@@ -1,0 +1,92 @@
+{
+  "execution": "fresh native original P1 code execution using external frozen source collection",
+  "self_contained_public_package": false,
+  "scientific_tables": [
+    {
+      "table": "catalog_ec_reuse.tsv",
+      "generated_sha256": "4fc5dda2a12f7975cdf7166e526770dbe290d22745772fd34a062df9c8527d80",
+      "archived_sha256": "4fc5dda2a12f7975cdf7166e526770dbe290d22745772fd34a062df9c8527d80",
+      "byte_identical": true
+    },
+    {
+      "table": "catalog_locus_assignments.tsv",
+      "generated_sha256": "48b33a8891e05bb38c43bb4298e71b97031bca51e0bf39b271f2a38c71a25f90",
+      "archived_sha256": "48b33a8891e05bb38c43bb4298e71b97031bca51e0bf39b271f2a38c71a25f90",
+      "byte_identical": true
+    },
+    {
+      "table": "chimera_verification.tsv",
+      "generated_sha256": "940757738d232bd6266e9609f38eab14acfbe68953609a0c8adffbc5a3a58ebd",
+      "archived_sha256": "940757738d232bd6266e9609f38eab14acfbe68953609a0c8adffbc5a3a58ebd",
+      "byte_identical": true
+    },
+    {
+      "table": "concordance.tsv",
+      "generated_sha256": "0327a371510e31df0c58968c4f62721c92c25ad60ddc0d9d82a05ff4851b1fdc",
+      "archived_sha256": "0327a371510e31df0c58968c4f62721c92c25ad60ddc0d9d82a05ff4851b1fdc",
+      "byte_identical": true
+    },
+    {
+      "table": "concordance_all_CDS.tsv",
+      "generated_sha256": "5283e49b303184c93970a4d04dda53067a4d50c031ef1d94f585de6c88c279a6",
+      "archived_sha256": "5283e49b303184c93970a4d04dda53067a4d50c031ef1d94f585de6c88c279a6",
+      "byte_identical": true
+    },
+    {
+      "table": "discordance_strata.tsv",
+      "generated_sha256": "b8427171cd84b0557a880be4f1150aa56b6744aed3e0705790a7310876dd9658",
+      "archived_sha256": "b8427171cd84b0557a880be4f1150aa56b6744aed3e0705790a7310876dd9658",
+      "byte_identical": true
+    },
+    {
+      "table": "dldh_discordant.tsv",
+      "generated_sha256": "20a8326f94c33454e20824ad090083a886b3b695153d1b81602472ab2fcb38d8",
+      "archived_sha256": "20a8326f94c33454e20824ad090083a886b3b695153d1b81602472ab2fcb38d8",
+      "byte_identical": true
+    },
+    {
+      "table": "dldh_evidence.tsv",
+      "generated_sha256": "661f7de23ff1a3e3061768e10a42f39e0474ecb64a517660f44e2dc5fb13fde1",
+      "archived_sha256": "661f7de23ff1a3e3061768e10a42f39e0474ecb64a517660f44e2dc5fb13fde1",
+      "byte_identical": true
+    },
+    {
+      "table": "domain_hits_prior.tsv",
+      "generated_sha256": "f8b8bbb1b4426dfa679f69413cc6d575bc04fd5637142e95450d79848684ae59",
+      "archived_sha256": "f8b8bbb1b4426dfa679f69413cc6d575bc04fd5637142e95450d79848684ae59",
+      "byte_identical": true
+    },
+    {
+      "table": "global_blast_hsp_evidence.tsv",
+      "generated_sha256": "5922301c6d00675593589ef888e256883bc19bfa1206c565ca90e520fb5d715d",
+      "archived_sha256": "5922301c6d00675593589ef888e256883bc19bfa1206c565ca90e520fb5d715d",
+      "byte_identical": true
+    },
+    {
+      "table": "module_readiness.tsv",
+      "generated_sha256": "b0b38c949547baa4b30d132ccb4f7530c64d37b8aa93012610316a6406b51b4c",
+      "archived_sha256": "b0b38c949547baa4b30d132ccb4f7530c64d37b8aa93012610316a6406b51b4c",
+      "byte_identical": true
+    },
+    {
+      "table": "panel_orientation_prior.tsv",
+      "generated_sha256": "96ee889b0c2a4a1c354dc602a3b3ceb34c7c02125f476fcd8e50a3819bab2120",
+      "archived_sha256": "96ee889b0c2a4a1c354dc602a3b3ceb34c7c02125f476fcd8e50a3819bab2120",
+      "byte_identical": true
+    },
+    {
+      "table": "priority_candidates.tsv",
+      "generated_sha256": "661f7de23ff1a3e3061768e10a42f39e0474ecb64a517660f44e2dc5fb13fde1",
+      "archived_sha256": "661f7de23ff1a3e3061768e10a42f39e0474ecb64a517660f44e2dc5fb13fde1",
+      "byte_identical": true
+    },
+    {
+      "table": "protein_locus_evidence.tsv",
+      "generated_sha256": "3f245b91a3f4d753ede9f9534540c0ad97fb6a8c007a8b5df0cca9250361cef8",
+      "archived_sha256": "3f245b91a3f4d753ede9f9534540c0ad97fb6a8c007a8b5df0cca9250361cef8",
+      "byte_identical": true
+    }
+  ],
+  "scope": "full 14-table native P1 verified on original source collection; public package independently recomputes manuscript-specific 1483-row projection only",
+  "original_script_sha256": "21587201518ba36bd12fc3ad3033cbf0339b96be9bcd542073b24f11da7b4df9"
+}
