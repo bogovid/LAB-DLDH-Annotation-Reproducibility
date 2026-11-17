@@ -32,10 +32,14 @@ class ReproducibilityTests(unittest.TestCase):
    self.assertNotEqual(p.suffix,'.pyc')
    text=p.read_text(errors='replace')
    for rule in forbidden:self.assertIsNone(rule.search(text),str(p.relative_to(ROOT)))
- def test_version_and_unapproved_licensing_metadata(self):
-  d=json.loads((ROOT/'.zenodo.json').read_text());self.assertEqual(d['version'],'1.0.0');self.assertEqual(d['upload_type'],'software');self.assertNotIn('doi',d);
-  if (ROOT/'LICENSE').exists():self.assertEqual(d.get('license'),'mit')
-  else:self.assertNotIn('license',d);self.assertIn('license approval', (ROOT/'README.md').read_text().lower())
+ def test_version_and_licensing_metadata(self):
+  d=json.loads((ROOT/'.zenodo.json').read_text());self.assertEqual(d['version'],'1.0.1');self.assertEqual(d['upload_type'],'software');self.assertNotIn('doi',d);self.assertEqual(d.get('license'),'mit')
+  self.assertTrue((ROOT/'LICENSE').read_text().startswith('MIT License'))
+  self.assertIn('CC-BY-4.0',(ROOT/'LICENSES/CC-BY-4.0.md').read_text())
+  with (ROOT/'provenance/file_rights.tsv').open() as f:rs={x['path']:x for x in csv.DictReader(f,delimiter='\t')}
+  for p in (ROOT/'data/project/analysis/prokka_annotations').glob('*/*.faa'):
+   r=rs[str(p.relative_to(ROOT))];self.assertEqual(r['repository_grant'],'NONE_FOR_UNDERLYING_THIRD_PARTY_SEQUENCE')
+  self.assertEqual(rs['data/hmmer/Pfam_targeted_panel.hmm']['rights_basis'],'UPSTREAM_CC0-1.0')
  def test_complete_native_P1_proof_not_mislabelled_self_contained(self):
   d=json.loads((ROOT/'validation/full_P1_external_verification.json').read_text());self.assertFalse(d['self_contained_public_package']);self.assertEqual(len(d['scientific_tables']),14);self.assertTrue(all(x['byte_identical'] for x in d['scientific_tables']))
 if __name__=='__main__':unittest.main(verbosity=2)

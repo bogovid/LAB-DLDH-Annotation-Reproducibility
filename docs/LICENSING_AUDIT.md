@@ -1,27 +1,19 @@
-# Licensing and publication audit
+# Licensing audit — author approval implemented in 1.0.1
 
-Reviewed 2026-11-17. This is a file-scope audit, not an author declaration or a claim to eliminate all possible third-party rights.
+The author confirmed ownership of the original project code/documentation and author-generated results and approved MIT / CC BY 4.0 in the current task. That decision is implemented; no further approval of those grants is requested. It does not authorize any external publication or transfer third-party rights.
 
-| Included group | Provenance / terms | Current disposition |
-|---|---|---|
-| ORIGINAL analytical Python | Unchanged project code, source hashes and Git identifiers retained | Proposed MIT, subject to author confirmation of rights and scope |
-| RECONSTRUCTED, NEW and tests | Explicitly derived/new project code | Proposed MIT, not activated |
-| README/docs/reports and author-derived tables | New or derived project material | No license assigned; author may approve a documentation/data license separately |
-| Eight external UniProt reference sequences, plus their copies in alignments/query inputs | Official UniProt statement: copyrightable database parts CC BY 4.0 | Retain attribution, source URLs, exact accessions/hashes and transformations; do not replace by MIT |
-| Targeted Pfam model file | Official InterPro/Pfam terms: CC0 | Retain existing model metadata and resource attribution; do not mislabel tool license |
-| Eight local Prokka full proteomes and selected source records | Local derivatives of accession-identified NCBI molecular data | Necessary limited duplication; NCBI policy is not a transfer of all submitter rights; author redistribution/terms approval pending |
-| Archived and expected computational outputs | Original project outputs or documented projections | Mark historical versus new-derived; no blanket third-party license assigned |
-| Program dependencies | Not redistributed | Record versions/binary hashes; follow upstream terms on installation |
+| Group | Active disposition |
+|---|---|
+| Project-authored ORIGINAL, RECONSTRUCTED, NEW, tests code/configuration | MIT; originals preserved byte-for-byte |
+| Author-owned documentation/metadata and result/derived-data contributions | CC BY 4.0, scoped to owned contributions |
+| UniProt external sequence/reference copies | Upstream UniProt CC BY 4.0, with its attribution and exceptions |
+| Targeted Pfam models | Upstream CC0, not project-owned data |
+| NCBI-derived source sequences, including raw copies in mixed files | No new project grant for underlying third-party content; accession/source terms remain |
+| Mixed files | Split record/contribution rights; author results CC BY only where owned; embedded third-party components not relicensed |
+| Canonical license texts / superseded proposal | Legal texts and historical licensing evidence, not scientific source data or a competing active grant |
 
-The official UniProt API documentation search result carried the CC BY 4.0 statement; direct help-page opens returned a JavaScript fallback. The InterPro team explicitly states downloadable Pfam data CC0. These findings support scoped third-party notices, not ownership of author-generated annotations. No inaccessible reference was declared a new verified biochemical construct.
+The complete path-level decisions are in provenance/file_rights.tsv. See LICENSE.md, docs/THIRD_PARTY_NOTICES.md and the accession-specific tables. No whole-file MIT/CC BY grant is applied to the eight complete source proteomes or the selected NCBI-derived peptide FASTA.
 
-The complete NCBI collection, private terminal histories, raw session transcripts, private configurations, host-specific logs, Git credentials, manuscripts, unrelated structural models and phylogenomic data were excluded. Provenance exports use logical source IDs; sanitization is explicit, while recovered source code remains unchanged.
+Unresolved: accession-specific notice review is incomplete for the original NCBI sources; many entry views were inaccessible. A P37666 patent-publication reference is documented without concluding that it restricts this redistribution or clearing patent scope/status. These are distinct from the now-resolved author licensing approval. No unsupported ownership or unrestricted-redistribution declaration is made.
 
-## Required author action before publication
-
-1. Approve the concrete MIT proposal and scope for project-authored code, or specify another license. Activate it as an actual license only after approval.
-2. Approve terms and rights for author-generated data/documentation; retain third-party UniProt CC BY 4.0 and Pfam CC0 notices.
-3. Add the approved record-level license/mixed-license information to .zenodo.json. Zenodo requires a license; the omission is intentional pending approval.
-4. Authorize the actual GitHub/Zenodo publication separately. No approval is inferred from preparation of this package.
-
-See [Zenodo licenses and rights](https://help.zenodo.org/docs/deposit/describe-records/licenses/). No public DOI, release date or publication identifier is invented.
+The principal software license in CFF/Zenodo metadata is MIT. Metadata notes and the manifest explicitly state CC BY / CC0 / third-party exclusions; this top-level software identifier is not a blanket grant over all included files. No DOI or publication date is invented, and no upload/push/publication occurred.

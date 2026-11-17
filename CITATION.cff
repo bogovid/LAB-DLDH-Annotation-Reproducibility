@@ -1,16 +1,18 @@
 cff-version: 1.2.0
-message: "Cite the versioned software archive when published. This local preparation has no assigned DOI."
+message: "Cite the versioned software archive when published. MIT identifies project code only; see LICENSE.md for CC BY, CC0 and third-party exclusions. No DOI is assigned."
 type: software
 title: "LAB-DLDH-Annotation-Reproducibility: KJS D330 annotation reproducibility study"
 authors:
   - family-names: "Živković"
     given-names: "Bogovid"
     affiliation: "Independent Researcher, Serbia"
-version: "1.0.0"
+version: "1.0.1"
 repository-code: "https://github.com/bogovid/LAB-DLDH-Annotation-Reproducibility"
-abstract: "Frozen evidence and bounded reproducibility workflows for annotation-versus-sequence disagreement in a selected 507-genome collection. The earliest global BLASTP invocation has not been recovered. No candidate activity is established. License approval is pending."
+abstract: "Frozen evidence and bounded reproducibility workflows for annotation-versus-sequence disagreement in a selected 507-genome collection. The earliest global BLASTP invocation has not been recovered. No candidate activity is established. Project code is MIT; author-owned documentation/results are CC BY 4.0; third-party file/record exclusions are specified in LICENSE.md."
 keywords:
   - functional annotation
   - sequence similarity
   - reproducibility
   - comparative genomics
+
+license: MIT

@@ -1,10 +1,10 @@
 # LAB-DLDH-Annotation-Reproducibility
 
-Version **1.0.0**, prepared locally for `bogovid/LAB-DLDH-Annotation-Reproducibility`.
+Version **1.0.1**, prepared locally for `bogovid/LAB-DLDH-Annotation-Reproducibility`.
 
 Reproducibility code and a compact frozen evidence set for the **KJS D330 annotation reproducibility study**. The package examines annotation-versus-similarity disagreement, exact-sequence redundancy, selected reciprocal comparisons and targeted profile-HMM evidence. It does **not** identify candidate enzyme activities.
 
-**Publication status:** unpublished; author approval of the proposed code license and author-generated data/documentation terms is pending. No Zenodo DOI has been assigned. License approval is pending. See [licensing audit](docs/LICENSING_AUDIT.md).
+**Local status:** author licensing approval is implemented: MIT for project code; CC BY 4.0 for author-owned documentation/results. This is not a blanket grant over third-party data. Accession-specific rights review remains incomplete; see [accession review](docs/ACCESSION_RIGHTS_REVIEW.md). No GitHub/Zenodo publication is authorized or performed, and no DOI is assigned.
 
 ## What runs from the included files
 
@@ -61,6 +61,15 @@ Only the eight full proteomes necessary for complete-proteome reciprocal searche
 
 507 selected genomes are not independent population samples. The 468 generic candidates represent 75 exact sequences; 472 generic-EC discordant records form a broader group. A high BLAST score, reciprocal relationship, profile hit or neighbouring gene label is not an activity assay or proof of orthology/operon membership. Archived seven-case coverage and newly declared 43/17-case coverage results must remain distinct.
 
-UniProt-derived reference material retains CC BY 4.0 attribution; the included Pfam models retain CC0 status. These terms are not replaced by the **proposed**, unapproved MIT grant for project-authored code. See `LICENSE.md`, `LICENSES/MIT.proposed.txt`, `docs/THIRD_PARTY_NOTICES.md` and `docs/LICENSING_AUDIT.md`. Documentation/author-derived data terms also need author approval.
+| Component | File/record-level rights |
+|---|---|
+| Project-authored ORIGINAL/, RECONSTRUCTED/, NEW/, tests/ code/config | MIT (active, author-approved) |
+| Author-owned documentation, metadata, provenance, reports and result contributions | CC BY 4.0 (active, limited to owned contributions) |
+| UniProt external references, including copies in mixed records | Upstream UniProt CC BY 4.0; retain attribution |
+| Targeted Pfam model file | Upstream CC0-1.0 |
+| Underlying NCBI-derived source peptide strings/proteomes | No new author/project grant; applicable source/submitter terms remain |
+| Mixed FASTA/raw alignments/annotations | Split contribution/record rights; see provenance/file_rights.tsv and sequence/accession notices |
 
-Author: **Bogovid Živković**, Independent Researcher, Serbia. `CITATION.cff` and `.zenodo.json` contain supplied author/version metadata, without invented identifiers. `.zenodo.json` deliberately omits the still-unapproved top-level license; it must be completed before deposit. See `docs/PUBLICATION_STEPS.md` for approval-gated commands. Nothing has been pushed or uploaded.
+The active code license is LICENSE; LICENSES/MIT.proposed.txt is superseded historical evidence only. See LICENSE.md, LICENSES/CC-BY-4.0.md, docs/THIRD_PARTY_NOTICES.md and docs/LICENSING_AUDIT.md. No ownership is inferred for underlying NCBI sequences. Inaccessible accession notices and a P37666 patent-publication reference are flagged, not silently cleared.
+
+Author: **Bogovid Živković**, Independent Researcher, Serbia. CITATION.cff and .zenodo.json use version 1.0.1 and the supplied attribution. MIT is the principal **software** metadata license, with explicit mixed-rights exclusions; no DOI/ORCID or unverified related-record identifier is invented. The previous 1.0.0 archive is preserved. See docs/PUBLICATION_STEPS.md for actions that still require separate publication authorization. Nothing has been pushed or uploaded.

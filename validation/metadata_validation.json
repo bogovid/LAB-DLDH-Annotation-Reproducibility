@@ -1,10 +1,8 @@
 {
   "JSON_syntax": "PASS",
-  "CFF_required_fields_review": "PASS",
   "version_author_affiliation_consistency": "PASS",
+  "CFF_required_fields_review": "PASS",
   "full_CFF_schema_validation": "NOT PERFORMED: validator not installed",
-  "Zenodo_deposit_license": "PENDING AUTHOR APPROVAL: required before deposit",
-  "DOI": "not invented or assigned",
-  "CFF_YAML_syntax": "PASS (ruamel.yaml safe parser)",
-  "CFF_author_affiliation": "PASS"
+  "Zenodo_license": "MIT principal code license only; mixed rights documented",
+  "DOI": "not assigned"
 }

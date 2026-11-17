@@ -12,8 +12,12 @@ The targeted frozen HMM models in data/hmmer/Pfam_targeted_panel.hmm are Pfam da
 
 ## NCBI-derived genomes and local annotations
 
-Only selected proteins and the eight complete local Prokka proteomes required for reciprocal searches are included; no full 507-assembly dataset or whole-collection BLAST database is redistributed. Assembly accessions are in the public metadata. The [NCBI molecular data policy](https://www.ncbi.nlm.nih.gov/home/about/policies/#molecular) encourages reuse and imposes no NCBI restriction, while expressly not transferring submitter intellectual-property rights. It is not a blanket third-party license. Author approval of redistribution and terms for locally generated annotations/derived evidence remains pending; MIT must not be applied to these files by assumption.
+Only selected proteins and the eight complete local Prokka proteomes required for reciprocal searches are included; no full 507-assembly dataset or whole-collection BLAST database is redistributed. Assembly accessions are in the public metadata. The [NCBI molecular data policy](https://www.ncbi.nlm.nih.gov/home/about/policies/#molecular) encourages reuse and imposes no NCBI restriction, while expressly not transferring submitter intellectual-property rights. It is not a blanket third-party license. Author-owned annotation/result contributions are now CC BY 4.0; this does not relicense underlying third-party sequence content. No blanket MIT/CC BY grant applies to these source-derived files. See the file/accession review manifests.
 
 ## Tools
 
 BLAST+, HMMER, Python and GNU time executables are dependencies and are not bundled. Their own licenses do not automatically license this repository's code or data. Method citations: Camacho et al. (2009), https://doi.org/10.1186/1471-2105-10-421; Eddy (2011), https://doi.org/10.1371/journal.pcbi.1002195; Seemann (2014), https://doi.org/10.1093/bioinformatics/btu153.
+
+## Updated accession review
+
+Author code/documentation/results licensing is resolved by the supplied authorization. Source-specific third-party rights are separate. See ACCESSION_RIGHTS_REVIEW.md and the accession tables for attempted, inaccessible and uninspected records, including the P37666 patent-publication reference. No whole-archive rights clearance or patent freedom-to-operate finding is asserted.

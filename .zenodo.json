@@ -8,7 +8,7 @@
     }
   ],
   "description": "Code, compact frozen evidence and verified workflows for the KJS D330 annotation reproducibility study intended for Kragujevac Journal of Science. Includes reconstructed filtering, manuscript-specific P1 locus evidence, complete-proteome selected P2 reciprocal searches, targeted HMMER and finite-panel BLASTP comparisons. The exact earliest global BLASTP invocation remains unknown. No candidate enzymatic activity or cohort-wide orthology is asserted. This is an unpublished local preparation; no Zenodo DOI has been assigned.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "functional annotation",
     "D330",
@@ -19,5 +19,6 @@
     "comparative genomics"
   ],
   "related_identifiers": [],
-  "notes": "Related manuscript: KJS D330 annotation reproducibility study (no manuscript DOI supplied). Repository URL is the intended target, not a verified public record. Author-code MIT licensing and author-derived data/documentation terms are pending approval; the required deposit license must be added only after approval. UniProt and Pfam third-party terms are separately documented. Do not submit or publish this preparation without explicit author authorization. No verified related-record identifier is asserted in this draft; add the approved repository/version or manuscript identifier only after it is confirmed."
+  "notes": "Author approval activates MIT for project-authored code and CC BY 4.0 for author-owned documentation and original results/derived contributions. The top-level MIT identifier denotes the principal software license, not every file. UniProt CC BY 4.0 and Pfam CC0 are preserved. Underlying third-party NCBI-derived sequence content is explicitly excluded from the author grants; see LICENSE.md, provenance/file_rights.tsv and accession review tables. Accession-specific/other-IP clearance remains incomplete; no unrestricted third-party redistribution or patent freedom-to-operate claim is made. Related manuscript: KJS D330 annotation reproducibility study; no verified manuscript/Zenodo DOI is supplied. Repository URL is intended, not a verified published record. No push, public release or Zenodo publication is authorized by this preparation.",
+  "license": "mit"
 }

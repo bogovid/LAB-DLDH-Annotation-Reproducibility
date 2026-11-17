@@ -1,4 +1,4 @@
-# Reproducibility report — version 1.0.0 preparation
+# Reproducibility report — version 1.0.1 licensing finalization
 
 All included scientific stages were freshly executed with the curated data. No archived search output is labelled as a fresh search merely because its numbers were recomputed.
 
@@ -24,10 +24,14 @@ Data hashes are in validation/input_sha256.tsv, scientific output hashes in vali
 
 ## Tests and portability
 
-`python -m unittest discover -s tests -v` executes the full included workflow in a fresh output directory. It checks numerical denominators, archived-file equality, genuine reciprocal/domain/panel reexecution, source-code identity, metadata version, licensing-pending state and private-path/credential exclusions. Dependencies must be installed at the documented tested versions; missing tools are not silently skipped.
+`python -m unittest discover -s tests -v` executes the full included workflow in a fresh output directory. It checks numerical denominators, archived-file equality, genuine reciprocal/domain/panel reexecution, source-code identity, metadata version, approved scoped licensing state and private-path/credential exclusions. Dependencies must be installed at the documented tested versions; missing tools are not silently skipped.
 
-The final version is also tested from a clean copy extracted from the release archive, with no private source configuration or original research data copied there. The final QA record identifies that test run and archive/commit hashes. A first documentation-wording check failed before README clarified the explicit pending-license status; scientific checks passed, the wording was corrected, and the final suite is rerun. No numerical oracle was changed to make a test pass.
+The final version is also tested from a clean copy extracted from the release archive, with no private source configuration or original research data copied there. The final QA record identifies that test run and archive/commit hashes. During the earlier 1.0.0 preparation, a documentation-wording check failed and was corrected; that historical pending-license condition is superseded by the author-approved 1.0.1 terms. No numerical oracle was changed to make a test pass.
 
 ## Not reproduced or not claimed
 
 The earliest global BLASTP command, exact original reannotation/database environment, independent isolate provenance, full-Pfam discovery, all-genome orthology and biochemical candidate activities remain outside verified scope. No inaccessible preprint is declared verified. No full structural atlas, phylogeny, unpublished manuscript or irrelevant broader catalogue is included.
+
+## Licensing-only patch
+
+Version 1.0.1 activates the supplied author MIT/CC BY approval and adds file/accession rights exclusions. Scientific inputs, analytical originals and expected numerical oracles are unchanged. The same 12 clean-archive tests are rerun for this version; the local finalization report records the resulting commit/archive hashes. The 1.0.0 archive remains unchanged. Third-party source-sequence rights are not silently licensed by this patch.
