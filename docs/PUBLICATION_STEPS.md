@@ -4,7 +4,7 @@ All remote creation, pushes, visibility changes and deposit/release publication 
 
 ## Complete the approved licensing decision first
 
-Review LICENSES/MIT.proposed.txt and the file-scope licensing audit. After author approval, activate the agreed MIT text (without the proposal header) and document the approved author-data/documentation terms. Retain UniProt CC BY 4.0 and Pfam CC0 notices. Add the approved software record license and mixed-license explanation to .zenodo.json. Re-run tests, privacy checks and SHA-256 manifests; commit the approved changes. Do not publish an incomplete license field merely to obtain a DOI.
+Review LICENSES/MIT.proposed.txt and the file-scope licensing audit. After author approval, create LICENSE with the agreed MIT text (without the proposal header) and document the approved author-data/documentation terms. Retain UniProt CC BY 4.0 and Pfam CC0 notices. Add the approved software record license and mixed-license explanation to .zenodo.json. Re-run tests, privacy checks and SHA-256 manifests; commit the approved changes. Do not publish an incomplete license field merely to obtain a DOI.
 
 ## Authenticate and inspect, without publishing
 

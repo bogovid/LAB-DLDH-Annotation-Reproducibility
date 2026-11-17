@@ -33,7 +33,9 @@ class ReproducibilityTests(unittest.TestCase):
    text=p.read_text(errors='replace')
    for rule in forbidden:self.assertIsNone(rule.search(text),str(p.relative_to(ROOT)))
  def test_version_and_unapproved_licensing_metadata(self):
-  d=json.loads((ROOT/'.zenodo.json').read_text());self.assertEqual(d['version'],'1.0.0');self.assertEqual(d['upload_type'],'software');self.assertNotIn('doi',d);self.assertNotIn('license',d);self.assertIn('license approval', (ROOT/'README.md').read_text().lower())
+  d=json.loads((ROOT/'.zenodo.json').read_text());self.assertEqual(d['version'],'1.0.0');self.assertEqual(d['upload_type'],'software');self.assertNotIn('doi',d);
+  if (ROOT/'LICENSE').exists():self.assertEqual(d.get('license'),'mit')
+  else:self.assertNotIn('license',d);self.assertIn('license approval', (ROOT/'README.md').read_text().lower())
  def test_complete_native_P1_proof_not_mislabelled_self_contained(self):
   d=json.loads((ROOT/'validation/full_P1_external_verification.json').read_text());self.assertFalse(d['self_contained_public_package']);self.assertEqual(len(d['scientific_tables']),14);self.assertTrue(all(x['byte_identical'] for x in d['scientific_tables']))
 if __name__=='__main__':unittest.main(verbosity=2)

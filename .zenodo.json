@@ -1,10 +1,23 @@
 {
   "title": "LAB-DLDH-Annotation-Reproducibility: KJS D330 annotation reproducibility study",
   "upload_type": "software",
-  "creators": [{"name": "Živković, Bogovid", "affiliation": "Independent Researcher, Serbia"}],
+  "creators": [
+    {
+      "name": "Živković, Bogovid",
+      "affiliation": "Independent Researcher, Serbia"
+    }
+  ],
   "description": "Code, compact frozen evidence and verified workflows for the KJS D330 annotation reproducibility study intended for Kragujevac Journal of Science. Includes reconstructed filtering, manuscript-specific P1 locus evidence, complete-proteome selected P2 reciprocal searches, targeted HMMER and finite-panel BLASTP comparisons. The exact earliest global BLASTP invocation remains unknown. No candidate enzymatic activity or cohort-wide orthology is asserted. This is an unpublished local preparation; no Zenodo DOI has been assigned.",
   "version": "1.0.0",
-  "keywords": ["functional annotation", "D330", "D-lactate dehydrogenase", "BLASTP", "HMMER", "reproducibility", "comparative genomics"],
-  "related_identifiers": [{"identifier": "https://github.com/bogovid/LAB-DLDH-Annotation-Reproducibility", "relation": "isIdenticalTo", "scheme": "url"}],
-  "notes": "Related manuscript: KJS D330 annotation reproducibility study (no manuscript DOI supplied). Repository URL is the intended target, not a verified public record. Author-code MIT licensing and author-derived data/documentation terms are pending approval; the required deposit license must be added only after approval. UniProt and Pfam third-party terms are separately documented. Do not submit or publish this preparation without explicit author authorization."
+  "keywords": [
+    "functional annotation",
+    "D330",
+    "D-lactate dehydrogenase",
+    "BLASTP",
+    "HMMER",
+    "reproducibility",
+    "comparative genomics"
+  ],
+  "related_identifiers": [],
+  "notes": "Related manuscript: KJS D330 annotation reproducibility study (no manuscript DOI supplied). Repository URL is the intended target, not a verified public record. Author-code MIT licensing and author-derived data/documentation terms are pending approval; the required deposit license must be added only after approval. UniProt and Pfam third-party terms are separately documented. Do not submit or publish this preparation without explicit author authorization. No verified related-record identifier is asserted in this draft; add the approved repository/version or manuscript identifier only after it is confirmed."
 }
