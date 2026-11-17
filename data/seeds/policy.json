@@ -1,0 +1,9 @@
+{
+ "scope":"Seven P1 high-bilateral-coverage discordant CDSs versus the complete original LABG_0021 proteome; seed-specific reciprocal-best-HSP-set checks, not exhaustive pairwise cohort RBH or proven orthology.",
+ "comparator_genome":"LABG_0021",
+ "comparator_strain_limit":"Original JDM1-derived cohort assembly; not the full proteome of an experimentally assayed WCFS1 or L. pentosus construct.",
+ "evalue":1e-5,"seg":"no","threads":1,"max_target_seqs":10000,
+ "ranking":"Maximum single-HSP bit score per locus; retain every exact co-best score tie among all reported HSPs; no identity/coverage filter before ranking.",
+ "coverage_review":0.85,
+ "interpretation":"Whether the seed is in a reciprocal co-best set is sequence evidence for this proteome pair only; coverage recorded separately. No enzyme activity or orthogroup assertion."
+}

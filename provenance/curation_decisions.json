@@ -1,0 +1,19 @@
+{
+  "candidate_zip_found": true,
+  "candidate_inputs_assessed": true,
+  "source_basis": "verified Phase G and unchanged original project inputs",
+  "excluded": [
+    "private histories and session records",
+    "private configs and host logs",
+    "Python bytecode",
+    "manuscripts",
+    "structural atlas",
+    "unrelated phylogenomic work",
+    "full 507-genome sequence database",
+    "unverified acquisition-date statement from candidate README"
+  ],
+  "original_code_files": 3,
+  "selected_full_proteomes": 8,
+  "license_state": "proposed only; awaiting author approval",
+  "earliest_global_invocation": "NOT RECOVERED"
+}

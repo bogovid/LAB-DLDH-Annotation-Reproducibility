@@ -1,0 +1,16 @@
+stable_protein_id	historical	new_11_1	new_9_2	original_product	original_EC
+LABG_0001|LABG0001_00956	True	True	False	D-lactate dehydrogenase	1.1.1.28
+LABG_0004|LABG0004_03657	False	True	True	Glyoxylate/hydroxypyruvate reductase B	1.1.1.79
+LABG_0005|LABG0005_01874	True	False	True	Hydroxypyruvate reductase	1.1.1.81
+LABG_0009|LABG0009_01425	False	True	False	Glyoxylate/hydroxypyruvate reductase A	1.1.1.81
+LABG_0010|LABG0010_01516	False	False	True	D-3-phosphoglycerate dehydrogenase	1.1.1.95
+LABG_0017|LABG0017_02820	True	False	False	D-specific alpha-keto acid dehydrogenase	1.1.1.-
+LABG_0020|LABG0020_02754	True	False	False	Glyoxylate/hydroxypyruvate reductase B	1.1.1.79
+LABG_0433|LABG0433_03234	False	True	True	Hydroxypyruvate reductase	1.1.1.81
+LABG_0439|LABG0439_03088	False	True	True	Hydroxypyruvate reductase	1.1.1.81
+LABG_0441|LABG0441_03251	False	True	True	Hydroxypyruvate reductase	1.1.1.81
+LABG_0456|LABG0456_03417	False	True	True	Hydroxypyruvate reductase	1.1.1.81
+LABG_0484|LABG0484_00160	False	False	True	Hydroxypyruvate reductase	1.1.1.81
+LABG_0489|LABG0489_00366	False	True	True	Glyoxylate/hydroxypyruvate reductase B	1.1.1.81
+LABG_0501|LABG0501_01458	True	False	False	D-3-phosphoglycerate dehydrogenase	1.1.1.95
+LABG_0503|LABG0503_00215	False	False	True	Putative 2-hydroxyacid dehydrogenase	1.1.1.-

@@ -1,0 +1,20 @@
+{
+  "classification": "RECONSTRUCTED",
+  "scope": "Portable restatement of documented P2 panel-comparison policy, not the undocumented global historical command",
+  "evidence": ["ORIGINAL/P2_homolog_discrimination_v001/scripts/search_evidence.py", "ORIGINAL/P2_homolog_discrimination_v001/config.json", "ORIGINAL/P2_homolog_discrimination_v001/METHODS.md"],
+  "blast_task": "blastp",
+  "matrix": "BLOSUM62",
+  "composition_based_statistics": 2,
+  "seg": "no",
+  "evalue_max": 0.00001,
+  "num_threads": 1,
+  "max_target_seqs": 10000,
+  "gap_settings": [[11, 1], [9, 2]],
+  "D_LDH_associated_external": ["Q88VJ2.1", "P26298.1", "P26297.3"],
+  "alternative_external": ["P17584.2", "Q5U922.2", "D2RJU7.1", "P37666.3", "P36234.2"],
+  "excluded_local": ["D330", "ALT332", "dapX"],
+  "HSP_ranking": ["descending bitscore", "ascending evalue", "descending identity", "source line"],
+  "group_score": "maximum selected-HSP bitscore",
+  "coverage": "inclusive coordinate span / full protein length, separately for query and subject",
+  "limit": "No substrate activity, orthology or missing-score-zero inference"
+}
